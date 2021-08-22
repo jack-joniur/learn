@@ -1,0 +1,25 @@
+*{
+    font-family: "Comic Sans MS";
+}
+.container{
+    background-color: rgb(195, 195, 195);
+    width: 500px;
+    padding: 80px;
+    margin: 30 auto;
+}
+.index{
+    background-color: rgb(100, 100, 100);
+    padding: 30px;
+    transition: 0.3s;
+}
+h1{
+    text-align: center;
+}
+.container:hover > .index{
+    transition: 0.3s;
+    background-color: thistle;
+}
+.index:hover{
+    color: white;
+    background-color: teal !important;
+}
